@@ -4,7 +4,6 @@
 
 </div>
 
-<a id="doc-link" style="display: block; cursor: pointer;" href="https://mikedev75015.github.io/mongodb-pipeline-builder" target="_blank">Technical documentation</a>
 
 <p style="text-align: justify; width: 100%;font-size: 15px;">
 is a pipeline builder for the db.collection.aggregate method and db.aggregate method. It will simplify pipelines by making them more
