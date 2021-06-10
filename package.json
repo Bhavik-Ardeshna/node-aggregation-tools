@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Bhavik-Ardeshna/node-aggregation-tools/issues"
   },
-  "homepage": "https://github.com/Bhavik-Ardeshna/node-aggregation-tools#readme"
+  "homepage": "https://github.com/Bhavik-Ardeshna/node-aggregation-tools#readme",
+  "dependencies": {
+    "mongoose": "^5.12.13"
+  }
 }
