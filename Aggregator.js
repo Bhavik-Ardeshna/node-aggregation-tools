@@ -31,8 +31,8 @@ class Aggregator {
 
     _omitNulls(params) {
         const checkedParams = {};
-        for (const paramName of Object.key(params)) {
-            if (![NaN, undefined, null, ""].includes(params[paramName]){
+        for (const paramName of Object.keys(params)) {
+            if (![NaN, undefined, null, ""].includes(params[paramName])) {
                 checkedParams[paramName] = params[paramName];
             }
         }

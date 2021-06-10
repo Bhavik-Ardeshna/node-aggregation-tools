@@ -7,7 +7,7 @@ class Executor {
 
     // Initialize the executor which require model[Database] and pipleine array of stages
     constructor(model, pipeline) {
-        this.model - model;
+        this.model = model;
         this.pipeline = pipeline;
     }
 
@@ -16,10 +16,11 @@ class Executor {
         return this;
     }
 
-    // It will finall aggregate the pipleline and return it 
     async exec() {
         return this.model.aggregate(this.pipeline);
     }
 }
 
 module.exports = Executor;
+
+
